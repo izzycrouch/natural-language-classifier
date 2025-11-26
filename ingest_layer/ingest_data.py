@@ -9,7 +9,6 @@ def load_data(dataset, output_path_prefix):
         with open(f'{output_path_prefix}{key}.json', mode='w', encoding='utf-8') as f:
             json.dump(list_items, f, indent=4)
 
-
 ds = load_dataset("dair-ai/emotion", "split")
 
 load_data(ds, './ingest_layer/load_emotion_')
@@ -18,9 +17,12 @@ def clean_data(input_file_path):
     with open(input_file_path, mode='r', encoding='utf-8') as f:
         list_data = json.load(f)
         cleaned_data = []
+
         for data in list_data:
-            if isinstance(data['text'], str) and isinstance(data['label'], int):
-                cleaned_data.append(data)
+            dict_keys = list(data.keys())
+            if 'text' in dict_keys and 'label' in dict_keys:
+                if isinstance(data['text'], str) and isinstance(data['label'], int) and data["text"] != '':
+                    cleaned_data.append(data)
     return cleaned_data
 
 
