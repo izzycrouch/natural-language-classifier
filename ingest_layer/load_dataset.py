@@ -2,7 +2,7 @@ from datasets import load_dataset
 import json
 
 
-def ingest():   
+def load_data():   
     ds = load_dataset("dair-ai/emotion", "split")
     
     # train data
@@ -20,4 +20,4 @@ def ingest():
     with open('./ingest_layer/load_emotion_test.json', mode='w', encoding='utf-8') as f:
         json.dump(test_list, f, indent=4)
 
-ingest()
+load_data()
