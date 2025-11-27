@@ -4,7 +4,7 @@
 
 In this project I will build a full AI pipeline, using a publically accessable dataset. I will:
 - Ingest and store that data reliably, using a local script which will form the basis for an AWS Lambda with RDS
-- Train a model on that data to understand or generate insights
+- Train a model on that data to understand insights
 - Create a chatbot interface that uses your trained model
 - Add RAG (Retrieval-Augmented Generation) functionality using simple local files
 
@@ -12,7 +12,7 @@ In this project I will build a full AI pipeline, using a publically accessable d
 
     1. Clone the repository.
     2. Set up and activate a virtual environment.
-    3. Run pip install datasets pytest. (See requirment.txt for more information.)
+    3. Run pip install datasets pytest scikit-learn. (See requirment.txt for more information.)
     4. Run
 
 ### Citation

@@ -7,14 +7,12 @@ class EmotionClassifier:
         
         self.model = data['model']
         self.vectorizer = data['vectorizer']
-        self.label_map = {
-            0: 'sadness',
-            1: 'joy',
-            2: 'love',
-            3: 'anger',
-            4: 'fear',
-            5: 'surprise'
-        }
+        self.label_dict= {0: 'sadness',
+                          1: 'joy',
+                          2: 'love',
+                          3: 'anger',
+                          4: 'fear',
+                          5: 'surprise'}
 
 
     def classify_emotion(self, input_text:str):
@@ -23,7 +21,7 @@ class EmotionClassifier:
         
         predicted_label_as_array = self.model.predict(input_text_vectors)
         predicted_label = predicted_label_as_array[0]
-        emotion = self.label_map[predicted_label]
+        emotion = self.label_dict[predicted_label]
         
         return emotion
     
