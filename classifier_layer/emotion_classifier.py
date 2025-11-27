@@ -1,4 +1,7 @@
 import pickle
+import logging
+
+logging.basicConfig(filename='./logging/RF_model_logger.log', encoding='utf-8', level=logging.DEBUG, format='%(asctime)s: %(levelname)s: %(message)s') 
 
 class EmotionClassifier:
     def __init__(self, model_path):
@@ -13,6 +16,7 @@ class EmotionClassifier:
                           3: 'anger',
                           4: 'fear',
                           5: 'surprise'}
+        self.logger = logging.getLogger(__name__)
 
 
     def classify_emotion(self, input_text:str):
@@ -22,6 +26,7 @@ class EmotionClassifier:
         predicted_label_as_array = self.model.predict(input_text_vectors)
         predicted_label = predicted_label_as_array[0]
         emotion = self.label_dict[predicted_label]
+        self.logger.info(f'Input:{input_text_vectors}. \n Result: {emotion}')
         
         return emotion
     

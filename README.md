@@ -13,7 +13,7 @@ In this project I will build a full AI pipeline, using a publically accessable d
     1. Clone the repository.
     2. Set up and activate a virtual environment.
     3. Run pip install datasets pytest scikit-learn. (See requirment.txt for more information.)
-    4. Run
+    4. Run 
 
 ### Citation
 
