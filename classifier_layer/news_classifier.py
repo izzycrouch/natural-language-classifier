@@ -22,9 +22,3 @@ class NewsClassifier:
 
         self.logger.info(f'Input: {input_text}. Result: {predicted_topic}')
         return predicted_topic
-
-    
-news=NewsClassifier('./models/trained_classifier_model.pkl')
-input_text = 'Champions League review: Arsenal erupt, PSV stun Liverpool and Benfica revive'
-topic = news.classify_news(input_text)
-print(topic)
