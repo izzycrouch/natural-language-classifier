@@ -24,3 +24,8 @@ def test_emotion_classifier_classifies_input_string_correctly_4():
     test_e = EmotionClassifier('./models/trained_classifier_model.pkl')
     emotion = test_e.classify_emotion(input_text='dogs make me laugh.')
     assert emotion == 'joy'
+
+def test_emotion_classifier_classifies_input_string_correctly_5():
+    test_e = EmotionClassifier('./models/trained_classifier_model.pkl')
+    emotion = test_e.classify_emotion(input_text='i am not happy.')
+    assert emotion == 'fear'
