@@ -1,5 +1,5 @@
 from chatbot import Chatbot
-from classifier_layer.emotion_classifier import EmotionClassifier
+from classifier_layer.news_classifier import NewsClassifier
 
 # def chatbot_interface():
 #     bot = Chatbot()

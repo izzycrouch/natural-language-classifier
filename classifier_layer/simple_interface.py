@@ -1,9 +1,9 @@
 from news_classifier import NewsClassifier
 
 def interface():
-    print('\nWelcome to Emotion Classifier! \n\Input some text (then press enter) and I will evaluate what emotion it classifies under. To exit, type exit and press enter.')
+    print('\nWelcome to News Classifier! \n\Input a title of a news article (then press enter) and I will evaluate what topic the article classifies under. To exit, type exit and press enter.')
     while True:
-        input_string = input('\nEnter a sentence to classify: ')
+        input_string = input('\nEnter a title to classify: ')
         
         if input_string.casefold() != 'exit':
             
