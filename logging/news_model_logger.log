@@ -99,3 +99,219 @@ Can you please provide me with the text material for the article "The US governm
 2025-11-27 17:45:36,511: INFO: Input: 
 <|user|>
 Can you provide me with a step-by-step guide on how to create a Python program that extracts the news article title from a given text input?. Result: TECHNOLOGY
+2025-11-27 18:45:21,135: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 18:45:21,296: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 18:45:21,309: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 18:45:21,484: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 18:45:21,587: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 18:45:21,827: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 18:45:21,838: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 18:45:30,547: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 18:45:30,566: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 18:45:30,675: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 18:46:41,952: INFO: Input:                    <|assistant|>
+                    Yes, you should watch the new season of Stranger Things based on this article 'Stranger Things season five review – this luxurious final run will have you standing on a chair, y. Result: TECHNOLOGY
+2025-11-27 18:49:23,881: INFO: Input:                    <|assistant|>
+                    Yes, you should watch the new season of Stranger Things based on this article 'Stranger Things season five review – this luxurious final run will have you standing on a chair, y. Result: TECHNOLOGY
+2025-11-27 18:50:25,198: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 18:50:25,419: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 18:50:25,433: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 18:50:25,620: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 18:50:25,723: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 18:50:26,002: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 18:50:26,013: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 18:50:32,976: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 18:50:32,994: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 18:50:33,097: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 18:50:56,752: INFO: Input:                    <|assistant|>
+                    Yes, you should watch the new season of Stranger Things based on this article 'Stranger Things season five review – this luxurious final run will have you standing on a chair, y. Result: TECHNOLOGY
+2025-11-27 18:54:03,872: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 18:54:04,046: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 18:54:04,057: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 18:54:04,231: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 18:54:04,331: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 18:54:04,606: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 18:54:04,621: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 18:54:13,072: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 18:54:13,096: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 18:54:13,201: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 18:54:39,580: INFO: Input:                    <|assistant|>
+Yes, you should watch the new season of Stranger Things based on this article 'Stranger Things season five review – this luxurious final run will have you standing on a chair, yelling with. Result: TECHNOLOGY
+2025-11-27 18:57:48,524: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 18:57:48,705: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 18:57:48,718: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 18:57:48,898: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 18:57:48,999: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 18:57:49,245: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 18:57:49,259: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 18:57:56,633: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 18:57:56,652: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 18:57:56,756: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 18:58:11,372: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 18:58:11,511: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 18:58:11,524: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 18:58:11,693: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 18:58:11,791: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 18:58:12,166: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 18:58:12,178: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 18:58:16,036: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 18:58:16,049: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 18:58:16,151: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 18:58:35,414: INFO: Input: <|assistant|>
+Yes, you should watch the new season of Stranger Things based on this article 'Stranger Things season five review – this luxurious final run will have you standing on a chair, yelling with. Result: TECHNOLOGY
+2025-11-27 19:00:03,074: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:00:03,221: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:00:03,234: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:00:03,405: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:00:03,508: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:00:03,749: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:00:03,761: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:00:10,934: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:00:10,948: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:00:11,054: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:00:32,020: INFO: Input: Yes, you should watch the new season of Stranger Things based on this article 'Stranger Things season five review – this luxurious final run will have you standing on a chair, yelling with. Result: TECHNOLOGY
+2025-11-27 19:04:42,545: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:04:42,719: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:04:42,732: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:04:43,006: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:04:43,106: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:04:43,353: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:04:43,366: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:04:52,500: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:04:52,525: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:04:52,631: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:05:39,355: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:05:39,503: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:05:39,513: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:05:39,669: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:05:39,770: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:05:40,020: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:05:40,032: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:05:44,257: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:05:44,268: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:05:44,369: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:06:04,568: INFO: Input: Yes, you should definitely watch the new season of Stranger Things based on this article "Stranger Things season five review – this luxurious final run will have you standing on a chair, yelling with joy".. Result: TECHNOLOGY
+2025-11-27 19:08:42,102: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:08:42,290: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:08:42,301: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:08:42,495: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:08:42,600: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:08:42,904: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:08:42,967: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:08:50,878: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:08:50,890: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:08:51,007: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:09:39,472: INFO: Input: 
+"TV tonight: the extraordinary story of the 1994 murder that shocked Orkney"
+                    <|user|>
+Can you summarize. Result: ENTERTAINMENT
+2025-11-27 19:26:16,807: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:26:17,002: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:26:17,015: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:26:17,196: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:26:17,313: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:26:17,602: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:26:17,623: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:26:30,737: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:26:30,752: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:26:30,862: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:26:56,792: INFO: Input: 
+                    This article 'TV tonight: the extraordinary story of the 1994 murder that shocked Orkney' about the murder of a young woman in Orkney in 1. Result: ENTERTAINMENT
+2025-11-27 19:28:27,343: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:28:27,640: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:28:27,658: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:28:27,821: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:28:28,147: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:28:28,388: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:28:28,400: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:28:32,624: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:28:32,635: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:28:32,734: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:28:52,989: INFO: Input: 
+                    TV tonight: the extraordinary story of the 1994 murder that shocked Orkney
+                    <|user|>
+Can you summarize. Result: ENTERTAINMENT
+2025-11-27 19:31:02,465: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:31:02,646: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:31:02,661: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:31:02,833: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:31:02,940: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:31:03,186: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:31:03,198: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:31:10,212: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:31:10,226: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:31:10,333: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:31:44,020: INFO: Input: 
+                    This article 'TV tonight: the extraordinary story of the 1994 murder that shocked Orkney' about the murder of a young woman in Orkney in 1. Result: ENTERTAINMENT
+2025-11-27 19:35:46,946: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:35:47,109: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:35:47,124: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:35:47,297: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:35:47,401: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:35:47,640: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:35:47,653: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:35:54,970: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:35:54,986: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:35:55,147: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:36:19,033: INFO: Input: 
+    This article is about the extraordinary story of the 1994 murder that shocked Orkney.. Result: ENTERTAINMENT
+2025-11-27 19:40:03,968: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:40:04,122: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:40:04,137: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:40:04,306: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:40:04,654: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:40:04,901: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:40:04,916: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:40:11,072: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:40:11,084: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:40:11,190: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:40:28,977: INFO: Input: <|assistant|>
+    This article is about the extraordinary story of the 1994 murder that shocked Orkney.. Result: ENTERTAINMENT
+2025-11-27 19:43:03,216: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:43:03,368: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:43:03,382: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:43:03,549: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:43:03,649: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:43:03,883: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:43:03,897: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:43:11,401: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:43:11,417: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:43:11,542: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:43:34,065: INFO: Input: 
+    This article is about the extraordinary story of the 1994 murder that shocked Orkney. It is not available in the given text.. Result: ENTERTAINMENT
+2025-11-27 19:46:46,250: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:46:46,407: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:46:46,422: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:46:46,668: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:46:46,770: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:46:47,177: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:46:47,191: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:46:57,179: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:46:57,195: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:46:57,300: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:47:30,691: INFO: Input: <|user|>
+                    Can you extract the news headline from the article "The US government ruins Thanksgiving: it's a South Park holiday special" and return it to me?. Result: ENTERTAINMENT
+2025-11-27 19:49:36,835: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:49:37,009: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:49:37,070: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:49:37,380: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:49:37,482: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:49:37,737: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:49:37,757: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:49:45,502: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:49:45,523: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:49:45,742: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:50:13,723: INFO: Input: <|user|>
+                    Can you extract the title of the article 'TV tonight: the extraordinary story of the 1994 murder that shocked Orkney' from the given text?. Result: ENTERTAINMENT
+2025-11-27 19:51:49,289: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-27 19:51:49,450: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-27 19:51:49,464: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-27 19:51:49,646: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-27 19:51:49,765: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-27 19:51:50,009: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-27 19:51:50,023: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-27 19:51:57,746: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-27 19:51:57,767: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-27 19:51:57,878: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-27 19:52:22,435: INFO: Input: <|user|>
+                    Can you extract the title of the article 'TV tonight: the extraordinary story of the 1994 murder that shocked Orkney' from the given text?. Result: ENTERTAINMENT

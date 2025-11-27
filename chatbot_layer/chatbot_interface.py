@@ -12,15 +12,15 @@ def chatbot_interface():
         if input_string.casefold() != 'exit':
             
             news_title = bot.extract_title(input_string)
-            print(news_title)
             
             news_classifier = NewsClassifier('./models/trained_classifier_model.pkl')
             
             topic = news_classifier.classify_news(input_text=news_title)
             
-            print(topic)
-            
-        #     print(f'\nInput: {input_string} \nClassified Topic: {topic.capitalize()}')
+            print(f'\nTitle: {news_title} \nClassified Topic: {topic.capitalize()}')
+
+            # reply = bot.generate_reply(input_string)
+            # print(f'Response: {reply}')
         
         else:
             print('\nGoodbye!')
