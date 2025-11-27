@@ -28,6 +28,6 @@ class EmotionClassifier:
     def __str__(self):
         return f'{emotion}'
         
-emotions = EmotionClassifier('./trained_model.pkl')
+emotions = EmotionClassifier('./models/trained_classifier_model.pkl')
 emotion = emotions.classify_emotion(input_text='I am feeling sad.')
 print(emotions)
