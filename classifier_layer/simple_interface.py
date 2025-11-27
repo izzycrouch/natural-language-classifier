@@ -2,6 +2,7 @@ from news_classifier import NewsClassifier
 
 def interface():
     print('\nWelcome to News Classifier! \n\Input a title of a news article (then press enter) and I will evaluate what topic the article classifies under. To exit, type exit and press enter.')
+    
     while True:
         input_string = input('\nEnter a title to classify: ')
         
