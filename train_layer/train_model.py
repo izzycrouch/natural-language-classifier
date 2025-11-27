@@ -60,15 +60,9 @@ class TrainModel:
 
     def save_trained_model(self):
         with open('trained_model.pkl', 'wb') as f:
-            pickle.dump(self.model, f)
+            pickle.dump({'model':self.model, 'vectorizer': self.vectorizer}, f)
         print('Trained model has been saved.')
 
-    def load_trained_model(self):
-        with open('trained_model.pkl', 'rb') as f:
-            model = pickle.load(f)
-            self.model = model
-        print('Trained model has been loaded.')
-        return self.model
 
 
 train_emotion_model = TrainModel()
