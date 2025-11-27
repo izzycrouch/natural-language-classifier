@@ -136,3 +136,71 @@ Confusion Matrix:
 weighted avg       0.87      0.87      0.86      2000
 
 
+2025-11-27 11:05:18,143: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 2 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 406)	1
+  (0, 4924)	1. 
+ Result: sadness
+2025-11-27 11:06:29,048: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 2 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 406)	1
+  (0, 434)	1. 
+ Result: sadness
+2025-11-27 11:06:38,274: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 3 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 1330)	1
+  (0, 1444)	1
+  (0, 4924)	1. 
+ Result: joy
+2025-11-27 11:06:46,685: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 3 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 434)	1
+  (0, 2973)	1
+  (0, 4928)	1. 
+ Result: joy
+2025-11-27 11:06:53,012: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 2 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 434)	1
+  (0, 14844)	1. 
+ Result: joy
+2025-11-27 11:06:57,042: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 2 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 434)	1
+  (0, 518)	1. 
+ Result: anger
+2025-11-27 11:07:03,743: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 0 stored elements and shape (1, 15186)>. 
+ Result: anger
+2025-11-27 11:09:07,951: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 2 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 4924)	1
+  (0, 14844)	1. 
+ Result: joy
+2025-11-27 11:09:17,942: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 1 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 4672)	1. 
+ Result: anger
+2025-11-27 11:10:18,445: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 1 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 4672)	1. 
+ Result: anger
+2025-11-27 11:16:28,748: INFO: Input:<Compressed Sparse Row sparse matrix of dtype 'int64'
+	with 7 stored elements and shape (1, 15186)>
+  Coords	Values
+  (0, 434)	1
+  (0, 496)	1
+  (0, 3936)	1
+  (0, 4928)	1
+  (0, 5233)	1
+  (0, 8768)	1
+  (0, 12417)	1. 
+ Result: sadness

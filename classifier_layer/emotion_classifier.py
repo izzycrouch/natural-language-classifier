@@ -17,6 +17,7 @@ class EmotionClassifier:
                           4: 'fear',
                           5: 'surprise'}
         self.logger = logging.getLogger(__name__)
+        self.emotion = None
 
 
     def classify_emotion(self, input_text:str):
@@ -27,12 +28,9 @@ class EmotionClassifier:
         predicted_label = predicted_label_as_array[0]
         emotion = self.label_dict[predicted_label]
         self.logger.info(f'Input:{input_text_vectors}. \n Result: {emotion}')
-        
-        return emotion
+        self.emotion = emotion
+        return self.emotion
     
     def __str__(self):
-        return f'{emotion}'
-        
-emotions = EmotionClassifier('./models/trained_classifier_model.pkl')
-emotion = emotions.classify_emotion(input_text='I am feeling sad.')
-print(emotions)
+        return f'{self.emotion}'
+    
