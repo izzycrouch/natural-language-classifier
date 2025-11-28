@@ -315,3 +315,623 @@ Can you summarize. Result: ENTERTAINMENT
 2025-11-27 19:51:57,878: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
 2025-11-27 19:52:22,435: INFO: Input: <|user|>
                     Can you extract the title of the article 'TV tonight: the extraordinary story of the 1994 murder that shocked Orkney' from the given text?. Result: ENTERTAINMENT
+2025-11-28 09:31:30,789: INFO: Model has been tested with data.
+Confusion Matrix: 
+[[2289   59  222  214    2   31  212]
+ [  38 2671   52   99    3   39  105]
+ [  69   35 2722  127   14    8   25]
+ [ 117  141  427 2247    6   36   34]
+ [  17   24   89   14  559    9   41]
+ [  30   88   45   58    0 2712   28]
+ [ 108  102   61   27   19   22 2658]]
+ Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.00      0.00      0.00         0
+           2       0.00      0.00      0.00         0
+           3       0.00      0.00      0.00         0
+           4       0.00      0.00      0.00         0
+           5       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+
+2025-11-28 09:36:19,724: INFO: Model has been tested with data.
+Confusion Matrix: 
+[[2289   59  222  214    2   31  212]
+ [  38 2671   52   99    3   39  105]
+ [  69   35 2722  127   14    8   25]
+ [ 117  141  427 2247    6   36   34]
+ [  17   24   89   14  559    9   41]
+ [  30   88   45   58    0 2712   28]
+ [ 108  102   61   27   19   22 2658]]
+ Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       0.00      0.00      0.00         0
+           2       0.00      0.00      0.00         0
+           3       0.00      0.00      0.00         0
+           4       0.00      0.00      0.00         0
+           5       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+
+2025-11-28 09:38:41,412: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 09:38:41,550: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 09:38:41,563: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 09:38:41,731: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 09:38:41,845: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 09:38:42,118: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 09:38:42,130: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 09:38:56,215: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 09:38:56,234: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 09:38:56,339: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 09:39:17,311: INFO: Input: <|user|>
+                    Can you please extract the news headline from the given text material?. Result: TECHNOLOGY
+2025-11-28 09:40:20,683: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 09:40:20,899: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 09:40:20,911: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 09:40:21,078: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 09:40:21,178: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 09:40:21,419: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 09:40:21,430: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 09:40:29,157: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 09:40:29,175: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 09:40:29,283: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 09:40:44,737: INFO: Input: I hope this helps!. Result: HEALTH
+2025-11-28 09:41:22,030: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 09:41:22,173: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 09:41:22,185: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 09:41:22,347: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 09:41:22,457: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 09:41:22,699: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 09:41:22,709: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 09:41:27,354: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 09:41:27,365: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 09:41:27,464: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 09:41:45,382: INFO: Input: 
+                    Spain and Germany renew battle in Nations League final showdown<|end|>. Result: SPORTS
+2025-11-28 09:45:06,183: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 09:45:06,363: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 09:45:06,373: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 09:45:06,553: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 09:45:06,662: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 09:45:06,929: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 09:45:06,945: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 09:45:18,981: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 09:45:18,996: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 09:45:19,108: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 09:46:02,880: INFO: Input: 
+                    Archaeologists say they have proof humans carved huge pits near Stonehenge. Result: SCIENCE
+2025-11-28 10:55:21,567: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 10:55:21,731: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 10:55:21,742: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 10:55:21,916: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 10:55:22,032: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 10:55:22,296: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 10:55:22,309: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 10:55:35,446: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 10:55:35,465: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 10:55:35,579: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 10:55:57,067: INFO: Input: 
+                    Archaeologists say they have proof humans carved huge pits near Stonehenge. Result: SCIENCE
+2025-11-28 10:58:12,754: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 10:58:12,903: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 10:58:12,913: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 10:58:13,070: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 10:58:13,167: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 10:58:13,440: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 10:58:13,500: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 10:58:19,559: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 10:58:19,576: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 10:58:19,679: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 10:58:45,556: INFO: Input: 
+                    Archaeologists say they have proof humans carved huge pits near Stonehenge. Result: SCIENCE
+2025-11-28 11:00:48,971: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:00:49,120: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:00:49,131: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:00:49,289: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:00:49,391: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:00:49,623: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:00:49,633: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:00:53,537: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:00:53,548: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:00:53,647: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:01:17,549: INFO: Input: Archaeologists say they have proof humans carved huge pits near Stonehenge. Result: SCIENCE
+2025-11-28 11:05:15,935: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:05:16,081: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:05:16,093: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:05:16,263: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:05:16,406: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:05:16,647: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:05:16,662: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:05:21,231: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:05:21,245: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:05:21,356: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:05:53,684: INFO: Input: I do not have a personal opinion or preference. However, oranges are a popular fruit that is commonly consumed worldwide. They are known for their sweet, juicy, and tangy taste.. Result: ENTERTAINMENT
+2025-11-28 11:06:43,048: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:06:43,198: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:06:43,210: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:06:43,381: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:06:43,505: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:06:43,737: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:06:43,747: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:06:51,507: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:06:51,525: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:06:51,633: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:07:11,106: INFO: Input: No title detected. Result: SPORTS
+2025-11-28 11:07:32,384: INFO: Input: No title detected. Result: SPORTS
+2025-11-28 11:09:25,497: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:09:25,633: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:09:25,644: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:09:25,809: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:09:26,056: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:09:26,295: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:09:26,310: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:09:30,755: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:09:30,768: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:09:30,871: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:11:35,068: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:11:35,241: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:11:35,252: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:11:35,403: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:11:35,507: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:11:35,743: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:11:35,756: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:11:41,707: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:11:41,718: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:11:41,834: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:12:36,713: INFO: Input: Archaeologists say they have proof humans carved huge pits near Stonehenge
+                    <|user|>
+                    Can you summarize the. Result: SCIENCE
+2025-11-28 11:17:54,891: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:17:55,062: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:17:55,074: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:17:55,247: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:17:55,352: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:17:55,599: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:17:55,611: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:18:04,686: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:18:04,700: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:18:04,802: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:20:12,643: INFO: Input: Iga Swiatek: ‘I didn’t want to give any points for free – it’s a Wimbledon final and I wanted to win’. Result: SPORTS
+2025-11-28 11:36:41,878: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:36:42,028: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:36:42,039: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:36:42,205: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:36:42,305: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:36:42,546: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:36:42,557: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:36:54,721: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:36:54,738: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:36:54,842: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:37:44,505: INFO: Input: Yes, you should read the article as it is about tennis. Tennis is a popular sport and the article provides insights into the game.. Result: TECHNOLOGY
+2025-11-28 11:40:50,182: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:40:50,442: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:40:50,453: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:40:50,618: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:40:50,721: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:40:50,986: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:40:50,996: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:41:05,621: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:41:05,659: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:41:05,809: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:42:28,852: INFO: Input: The article is trying to tell you that illustration is an underrated art form that is deeply human and informative. It is beautiful and informative.. Result: ENTERTAINMENT
+2025-11-28 11:49:18,230: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 11:49:18,379: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 11:49:18,390: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 11:49:18,557: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 11:49:18,657: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 11:49:18,888: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 11:49:18,897: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 11:49:29,174: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 11:49:29,189: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 11:49:29,299: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 11:50:12,121: INFO: Input: The article is trying to tell you that illustration is an underrated art form that is deeply human and informative. It is beautiful and informative.. Result: ENTERTAINMENT
+2025-11-28 12:03:03,373: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:03:03,526: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:03:03,537: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:03:03,708: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:03:03,808: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:03:04,288: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:03:04,297: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:03:14,631: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:03:14,653: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:03:14,763: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:04:45,015: INFO: Input: Free jazz, history's most maligned music
+                    <|user|>
+                    Can you summarize the article about the new season of Stranger. Result: TECHNOLOGY
+2025-11-28 12:11:31,102: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:11:31,293: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:11:31,306: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:11:31,485: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:11:31,591: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:11:31,850: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:11:31,860: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:11:47,062: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:11:47,087: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:11:47,199: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:12:17,229: INFO: Input: Response: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell us that illustration is an underrated art form that is often over. Result: ENTERTAINMENT
+2025-11-28 12:19:02,265: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:19:02,424: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:19:02,437: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:19:02,666: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:19:02,768: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:19:03,062: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:19:03,083: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:19:11,349: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:19:11,362: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:19:11,464: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:19:38,548: INFO: Input: Role: You are an expert in the field of illustration. 
+                    Task: You are tasked with analyzing the article and identifying the main message conveyed by the illustration. The article is about the under. Result: ENTERTAINMENT
+2025-11-28 12:21:47,224: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:21:47,372: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:21:47,383: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:21:47,556: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:21:47,661: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:21:47,922: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:21:47,932: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:22:00,987: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:22:01,000: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:22:01,101: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:22:31,327: INFO: Input: Role: You are an expert in illustration. 
+                    Task: You are asked to analyze the article and provide a brief summary of its main points. The article is about the underrated art of illustration, and. Result: ENTERTAINMENT
+2025-11-28 12:23:29,384: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:23:29,541: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:23:29,553: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:23:29,721: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:23:29,833: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:23:30,095: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:23:30,109: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:23:36,127: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:23:36,141: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:23:36,243: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:23:58,998: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is about the importance of illustration in modern design. It highlights the beauty and depth of illustration. Result: ENTERTAINMENT
+2025-11-28 12:25:46,134: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:25:46,307: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:25:46,322: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:25:46,556: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:25:46,665: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:25:47,038: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:25:47,053: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:25:57,962: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:25:57,992: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:25:58,102: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:26:33,770: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is about the importance of illustration in modern design. It highlights the beauty and depth of illustration. Result: ENTERTAINMENT
+2025-11-28 12:27:22,845: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:27:23,141: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:27:23,156: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:27:23,327: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:27:23,426: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:27:23,683: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:27:23,699: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:27:28,165: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:27:28,180: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:27:28,280: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:27:53,624: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is about the importance of illustration in modern design. It highlights the beauty and depth of illustration. Result: ENTERTAINMENT
+2025-11-28 12:30:23,266: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:30:23,417: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:30:23,431: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:30:23,610: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:30:23,712: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:30:23,967: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:30:23,981: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:30:34,328: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:30:34,345: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:30:34,449: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:31:06,483: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you that illustration is an underr. Result: ENTERTAINMENT
+2025-11-28 12:34:47,495: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:34:47,642: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:34:47,656: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:34:47,826: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:34:47,928: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:34:48,218: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:34:48,230: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:34:58,656: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:34:58,673: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:34:58,780: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:36:12,843: INFO: Input: Generate according to: This article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' has come up on my newsfeed. What is it trying to tell me about illustration?. Result: ENTERTAINMENT
+2025-11-28 12:37:10,437: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:37:10,579: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:37:10,589: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:37:10,755: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:37:10,853: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:37:11,112: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:37:11,123: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:37:16,271: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:37:16,283: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:37:16,383: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:37:38,522: INFO: Input: Generate according to: This article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' has come up on my newsfeed. What is it trying to tell me about illustration?. Result: ENTERTAINMENT
+2025-11-28 12:38:21,905: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:38:22,048: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:38:22,060: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:38:22,227: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:38:22,500: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:38:22,763: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:38:22,774: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:38:29,777: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:38:29,806: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:38:29,916: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:39:36,876: INFO: Input: system prompt: given input: "This article 'Informative, beautiful and deeply human: it's time to cheer the underrated art of illustration' has come up on my newsfeed. What is it trying to tell me about illustration?". Result: ENTERTAINMENT
+2025-11-28 12:41:09,023: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:41:09,181: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:41:09,193: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:41:09,359: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:41:09,458: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:41:09,783: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:41:09,796: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:41:17,795: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:41:17,808: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:41:17,910: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:42:59,744: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is not explicitly talking about illustration. However, it does mention the author's personal experiences with illustration and the art form. 
+
+The article primarily talks about the importance of illustrations in creating a deeper understanding of the content of the text. The author emphasizes the power of illustrations in conveying complex ideas and emotions in a memorable way. He also points out that illustrations are often overlooked in the age of digital media, but they still play a significant role in capturing the attention and engaging the reader. 
+
+The article also touches upon the nuances of illustration, such as the use of color and composition, which can add depth and meaning to the illustrations. It encourages readers to explore the world of illustration and find their own unique style and voice in the art form. Ultimately, the article aims to inspire readers to appreciate and embrace the beauty and power of illustration in their own work.. Result: ENTERTAINMENT
+2025-11-28 12:47:02,517: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 12:47:02,656: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 12:47:02,666: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 12:47:02,839: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 12:47:02,940: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 12:47:03,185: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 12:47:03,195: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 12:47:10,522: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 12:47:10,547: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 12:47:10,801: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 12:47:32,647: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you about the beauty, importance and vers. Result: ENTERTAINMENT
+2025-11-28 14:03:30,471: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:03:31,045: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:03:31,176: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:03:31,352: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:03:31,507: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:03:32,219: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:03:32,230: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:03:46,718: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:03:46,738: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:03:46,843: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:04:08,162: INFO: Input: Here's the updated code with the highlights added:
+
+```python
+import re
+
+def extract_title(input_str):
+    """
+    Extracts the article title contained inside quotation marks from a user input. Result: TECHNOLOGY
+2025-11-28 14:04:53,092: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:04:53,256: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:04:53,266: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:04:53,430: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:04:53,529: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:04:53,769: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:04:53,906: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:04:57,747: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:04:57,758: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:04:57,857: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:05:16,761: INFO: Input: The highlights of 'Spain and Germany renew battle in Nations League final showdown' are:
+1. Spain and Germany renew battle in Nations League final showdown
+2. Spain's 2-0 win over Germany in the. Result: SPORTS
+2025-11-28 14:07:07,922: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:07:08,082: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:07:08,093: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:07:08,254: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:07:08,354: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:07:08,592: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:07:08,603: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:07:12,738: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:07:12,752: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:07:12,892: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:07:34,611: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:07:34,828: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:07:34,839: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:07:34,999: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:07:35,098: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:07:35,339: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:07:35,350: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:07:38,895: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:07:38,906: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:07:39,005: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:08:00,814: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you that illustration is an underrated art. Result: ENTERTAINMENT
+2025-11-28 14:08:49,916: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:08:50,062: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:08:50,073: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:08:50,244: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:08:50,345: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:08:50,580: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:08:50,591: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:08:54,197: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:08:54,208: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:08:54,307: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:09:34,319: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you that illustration is an underrated art form that is often overlooked and undervalued. The article highlights the beauty and depth of illustration, and encourages readers to appreciate and support this art form. The article also mentions that illustration is often used to convey complex ideas and emotions in a visually engaging way. Overall, the article aims to inspire readers to appreciate and support illustration as a valuable and undervalued art form.. Result: TECHNOLOGY
+2025-11-28 14:10:24,476: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:10:24,742: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:10:24,752: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:10:24,936: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:10:25,095: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:10:25,341: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:10:25,352: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:10:31,941: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:10:31,957: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:10:32,058: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:10:52,707: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you that illustration is an underrated art. Result: ENTERTAINMENT
+2025-11-28 14:11:33,418: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:11:33,559: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:11:33,575: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:11:33,739: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:11:33,838: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:11:34,129: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:11:34,140: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:11:37,644: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:11:37,655: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:11:37,754: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:12:02,625: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:12:02,786: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:12:02,797: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:12:02,947: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:12:03,056: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:12:03,288: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:12:03,299: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:12:06,806: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:12:06,817: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:12:06,925: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:12:28,036: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you that illustration is an underrated art. Result: ENTERTAINMENT
+2025-11-28 14:12:55,171: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:12:55,312: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:12:55,323: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:12:55,497: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:12:55,599: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:12:55,836: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:12:55,862: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:13:00,468: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:13:00,479: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:13:00,579: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:13:19,983: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is trying to tell you that illustration is an underrated art. Result: ENTERTAINMENT
+2025-11-28 14:15:55,916: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:15:56,063: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:15:56,074: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:15:56,249: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:15:56,350: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:15:56,613: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:15:56,624: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:16:02,817: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:16:02,831: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:16:02,932: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:16:31,202: INFO: Input: The article 'Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration' is about the importance of illustration in storytelling. The article highlights the underrated art. Result: ENTERTAINMENT
+2025-11-28 14:17:25,408: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:17:25,552: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:17:25,562: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:17:25,727: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:17:25,840: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:17:26,073: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:17:26,084: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:17:29,600: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:17:29,611: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:17:29,713: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:17:46,103: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is about the importance of illustration in storytelling. The article is informative, beautiful, and. Result: ENTERTAINMENT
+2025-11-28 14:19:33,498: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:19:33,658: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:19:33,671: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:19:33,842: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:19:33,958: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:19:34,192: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:19:34,202: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:19:38,391: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:19:38,405: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:19:38,505: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:19:58,497: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is about the importance of illustration in storytelling. It highlights the beauty and depth of illustr. Result: ENTERTAINMENT
+2025-11-28 14:20:35,277: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:20:35,419: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:20:35,430: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:20:35,600: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:20:35,699: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:20:35,952: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:20:35,962: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:20:39,228: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:20:39,240: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:20:39,340: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:20:57,222: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is about the importance of illustration in storytelling. It highlights the beauty and depth of illustr. Result: ENTERTAINMENT
+2025-11-28 14:31:38,920: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:31:39,085: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:31:39,098: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:31:39,277: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:31:39,378: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:31:39,624: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:31:39,640: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:31:51,096: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:31:51,117: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:31:51,237: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:32:14,869: INFO: Input: This article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is trying to tell you that illustration is an underrated art form that is worth appreciating and celebr. Result: ENTERTAINMENT
+2025-11-28 14:43:10,516: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:43:11,058: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:43:11,092: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:43:11,299: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:43:11,429: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:43:11,906: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:43:11,919: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:43:19,717: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:43:19,731: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:43:19,843: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:43:46,580: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is trying to tell you that illustration is an underrated art form that is often overlooked. Result: ENTERTAINMENT
+2025-11-28 14:46:56,655: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:46:56,796: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:46:56,807: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:46:56,979: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:46:57,081: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:46:57,321: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:46:57,332: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:47:04,954: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:47:04,967: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:47:05,069: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:47:32,301: INFO: Input: The article "Informative, beautiful and deeply human: it's time to cheer the underrated art of illustration" by Sarah Meyohas tries to highlight how illustrations can be used. Result: ENTERTAINMENT
+2025-11-28 14:49:55,399: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:49:55,573: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:49:55,584: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:49:55,754: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:49:55,851: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:49:56,086: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:49:56,097: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:50:03,179: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:50:03,201: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:50:03,326: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:50:28,271: INFO: Input: Generate according to: This week's prompt was "What does this word mean?" I chose "illustration", which means "to depict or represent by drawing." Here's what I came up with: Inspired by the recent. Result: TECHNOLOGY
+2025-11-28 14:51:33,700: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:51:33,868: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:51:33,879: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:51:34,051: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:51:34,154: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:51:34,385: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:51:34,397: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:51:38,085: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:51:38,105: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:51:38,209: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:52:00,177: INFO: Input: Generate according to: This week's prompt was "What does this word mean?" I chose "illustration." Here's what I came up with: Inspired by the recent article "Informative, Beautiful & Deeply Human. Result: ENTERTAINMENT
+2025-11-28 14:55:24,019: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:55:24,175: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:55:24,186: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:55:24,350: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:55:24,467: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:55:24,713: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:55:24,725: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:55:32,935: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:55:32,958: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:55:33,060: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:55:56,212: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is trying to tell you that illustration is an underrated art form that is often overlooked. Result: ENTERTAINMENT
+2025-11-28 14:58:46,747: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 14:58:46,900: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 14:58:46,925: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 14:58:47,098: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 14:58:47,210: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 14:58:47,452: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 14:58:47,462: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 14:58:52,795: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 14:58:52,812: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 14:58:52,912: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 14:59:29,680: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is trying to tell you that illustration is an underrated art. Result: ENTERTAINMENT
+2025-11-28 15:21:10,905: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 15:21:11,070: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 15:21:11,081: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 15:21:11,250: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 15:21:11,352: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 15:21:11,587: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 15:21:11,602: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 15:21:24,870: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 15:21:24,888: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 15:21:24,993: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 15:21:47,014: INFO: Input: The article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is about the importance of illustration in modern design. It highlights the beauty and depth of illustration. Result: ENTERTAINMENT
+2025-11-28 15:36:13,470: DEBUG: Starting new HTTPS connection (1): huggingface.co:443
+2025-11-28 15:36:13,683: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-11-28 15:36:13,695: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json HTTP/1.1" 200 0
+2025-11-28 15:36:13,871: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-11-28 15:36:13,969: DEBUG: https://huggingface.co:443 "GET /api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=True&expand=False HTTP/1.1" 200 1425
+2025-11-28 15:36:14,225: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json HTTP/1.1" 307 0
+2025-11-28 15:36:14,240: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json HTTP/1.1" 200 0
+2025-11-28 15:36:24,284: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-11-28 15:36:24,299: DEBUG: https://huggingface.co:443 "HEAD /api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/generation_config.json HTTP/1.1" 200 0
+2025-11-28 15:36:24,402: DEBUG: https://huggingface.co:443 "HEAD /TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/custom_generate/generate.py HTTP/1.1" 404 0
+2025-11-28 15:36:46,858: INFO: Input: This article "Informative, beautiful and deeply human: it’s time to cheer the underrated art of illustration" is about the importance of illustration in modern art. It highlights the beauty and depth of illustration, which. Result: ENTERTAINMENT

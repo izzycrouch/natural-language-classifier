@@ -12,53 +12,84 @@ class Chatbot:
     
         self.chat_history_ids = None
 
+
     def encode_prompt(self, prompt: str):
         encoded = self.tokenizer(prompt, return_tensors="pt").to(self.device)
         return encoded
-    
+
+
     def decode_reply(self, reply_ids: list[int]):
         decoded = self.tokenizer.decode(reply_ids, skip_special_tokens=True)
         return decoded
     
-    def extract_title(self, prompt: str):
 
-        system_prompt = """
-                    <|system|>
-                    Role: You are an expert data extraction assistant. 
-                    Task: You perfectly extract and return only the news headline from the input text, if none are detected you return No title detected.
-                    Example:
-                    input: my friend sent me this article 'The US government ruins Thanksgiving: it's a South Park holiday special' should i read it?
-                    response: The US government ruins Thanksgiving: it's a South Park holiday special
-                    """
-
-        examples = """
-                    <|user|>
-                    What are the highlights of 'Spain and Germany renew battle in Nations League final showdown'?<|end|>
-                    <|assistant|>
-                    Spain and Germany renew battle in Nations League final showdown<|end|>
-                    <|user|>
-                    I got sent this article: Government to ditch day-one unfair dismissal policy from workers. What are the talking points from this article?<|end|>
-                    <|assistant|>
-                    Government to ditch day-one unfair dismissal policy from workers<|end|>
-                    <|user|>
-                    Should i watch the new season of stranger things based on this article 'Stranger Things season five review - this luxurious final run will have you standing on a chair, yelling with joy'?<|end|>
-                    <|assistant|>
-                    Stranger Things season five review - this luxurious final run will have you standing on a chair, yelling with joy<|end|>
-                    <|user|>
-                    What day is it today?<|end|>
-                    <|assistant|>
-                    No title detected<|end|>
-                    """
+    def generate_reply(self, is_extract: bool, prompt: str):
 
         new_prompt = '<|user|>\n' + prompt + '<|end|>\n'
-
-        input = new_prompt + system_prompt + examples 
-        encoded_input = self.encode_prompt(input)
-
-        input_ids = encoded_input['input_ids']
-        attention_mask = torch.ones_like(input_ids)
         
-        generate = self.model.generate(input_ids=input_ids, attention_mask=attention_mask , pad_token_id=self.tokenizer.eos_token_id, max_new_tokens=50, do_sample=False)
+
+        if is_extract:
+            system_prompt = """
+                         <|system|>
+                        You are an expert headline extraction assistant. 
+                        Your task is to identify and extract the news headline from the user input which is enclosed in quotation marks. 
+                        Return only the extracted headline, do not add anything else to the response.
+                        If no headline is found, respond with "None".<|end|>
+                        """
+            
+                
+            # examples = """ Here are some examples of inputs and how you should respond:
+            #         <|user|>
+            #         What are the highlights of 'Spain and Germany renew battle in Nations League final showdown'?<|end|>
+            #         <|assistant|>
+            #         Spain and Germany renew battle in Nations League final showdown<|end|>
+            #         <|user|>
+            #         I got sent this article: Government to ditch day-one unfair dismissal policy from workers. What are the talking points from this article?<|end|>
+            #         <|assistant|>
+            #         Government to ditch day-one unfair dismissal policy from workers<|end|>
+            #         <|user|>
+            #         What do you think about oranges?<|end|>
+            #         <|assistant|>
+            #         No title detected<|end|>
+            #         Here is the actual user input:
+            #         <|user|>
+            #         """
+            
+            # input = system_prompt + examples + new_prompt
+            input = system_prompt + new_prompt
+            encoded_input = self.encode_prompt(input)
+            input_ids = encoded_input['input_ids']
+            attention_mask = torch.ones_like(input_ids)
+
+            generate = self.model.generate(input_ids=input_ids, attention_mask=attention_mask , pad_token_id=self.tokenizer.eos_token_id, max_new_tokens=50, do_sample=True, temperature=0.01)
+        
+        else:
+            system_prompt = """
+                    <|system|>
+                    Given an article title and a classifier-predicted category, generate a friendly message for the user. 
+                    The message must:
+                    - Clearly state the extracted article title.
+                    - Inform the user of the predicted category.
+                    - Provide a short explanation of why the article might fit that category.
+                    - Address the user directly and keep the tone informative and concise.
+                    """
+
+            if self.chat_history_ids == None:
+                input = system_prompt + new_prompt
+                encoded_input = self.encode_prompt(input)
+                input_ids = encoded_input['input_ids']
+                attention_mask = torch.ones_like(input_ids)
+            
+            else:
+                encoded_prompt = self.encode_prompt(new_prompt)
+                prompt_ids = encoded_prompt['input_ids']
+                
+                input_ids = torch.cat((self.chat_history_ids, prompt_ids), dim=1).to(self.device)
+                attention_mask = torch.ones_like(input_ids).to(self.device)
+            
+            generate = self.model.generategenerate = self.model.generate(input_ids=input_ids, attention_mask=attention_mask , pad_token_id=self.tokenizer.eos_token_id, max_new_tokens=200, temperature=0.7, top_p=0.95, top_k=50, do_sample=True)
+
+            self.chat_history_ids = generate
 
         token_ids = generate[0].tolist()
         list_input_ids = input_ids[0].tolist()
@@ -70,43 +101,17 @@ class Chatbot:
         
         if stripped_reply.startswith('<|assistant|>'):
             stripped_reply = stripped_reply.replace('<|assistant|>', '')
+
+        if '<|end|>' in stripped_reply:
+            stripped_reply = stripped_reply.replace('<|end|>', '')
         
-        title = stripped_reply
-        
-        return title
+        reply = stripped_reply.strip()
+
+        return reply
     
-    def generate_reply(self, prompt: str):
-        new_prompt = '<|user|>/n' + prompt + '<|end|>'
-        encoded_prompt = self.encode_prompt(new_prompt)
-
-        prompt_ids = encoded_prompt['input_ids']
-        
-        system_prompt = "<|system|>\nYou are a friendly assistant who explains the results of a classification in natural language.<|end|>\n"
-
-        if self.chat_history_ids == None:
-            encoded_system_prompt = self.encode_prompt(system_prompt)
-            system_prompt_ids = encoded_system_prompt['input_ids']
-
-            input_ids = torch.cat((system_prompt_ids, prompt_ids), dim=1)
-            attention_mask = torch.ones_like(input_ids)
-        
-        else:
-            input_ids = torch.cat((self.chat_history_ids, prompt_ids), dim=1).to(self.device)
-            attention_mask = torch.ones_like(input_ids).to(self.device)
-        
-        generate = self.model.generate(input_ids=input_ids, attention_mask=attention_mask , pad_token_id=self.tokenizer.eos_token_id, max_new_tokens=200, temperature=0.4, top_p=0.95, top_k=50, do_sample=True)
-
-        token_ids = generate[0].tolist()
-        list_input_ids = input_ids[0].tolist()
-        input_len = len(list_input_ids)
-        reply_ids = token_ids[input_len:]
-        decoded_reply = self.decode_reply(reply_ids)
-        
-        self.chat_history_ids = generate
     
-        return decoded_reply
-
     def reset_history(self):
         self.chat_history_ids = None
         return self.chat_history_ids
 
+    
